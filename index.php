@@ -18,13 +18,14 @@
 	
 	<!-- Body -->
 	<body>
+		<div class="margin">
 <?php echo "<h1>Hot Or Cold?</h1>" ?>
 
 		<!-- input boxes -->
 		<h3>
 			<?php echo '<h2>Is it hot or cold outside? Use this website to find out!</h2>' ?>
 			<form method = "post">
-				<?php echo '<p>Temperature (in Celsius):</p>' ?><input type="number" name="temperature">  
+				<?php echo '<p>Temperature (in Celsius):</p>' ?><input type="number" name="temperature" step="any">  
 				<br>
 				<br>
 	
@@ -50,5 +51,6 @@ else {
 }
 }   
 	?>
+		</div>
 	</body>
 </html>

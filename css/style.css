@@ -3,28 +3,31 @@ height: 100vh;
 	background: linear-gradient(
 		to bottom,
 		#fd3535 0%,
-		#fd3535 50%,
-		#2f91f9 50%,
+		#8535fd 65%,
+		#8535fd 75%,
 		#2f91f9 100%
 	);
 }
 
+	.margin {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+			zoom: 2;
+}
+
 h1 {
 	color: white;
-	background-color: #a71111;
 }
 
 h2 {
 	color: white;
-	background-color: #4650dd;
 }
 
 p {
 	color: white;
-	background-color: #980b0b;
 }
 
 h4 {
 	color: white;
-	background-color: #583f88;
 }
